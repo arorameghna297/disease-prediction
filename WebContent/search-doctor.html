@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <title>ADMIN: MY HOSPITAL</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <link href="css/style.css" rel="stylesheet" type="text/css">
+            <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+            <br><br><br><br>
+            <div  id="container">
+                    <header>
+                            <h1>Visitor's Section</h1>
+                            <p>Search Doctor</p>
+                    </header>
+
+                    <div class="sub-container"> 
+
+                            <form action="SearchDoctor" method="post">
+                                    <fieldset> 
+                                        
+                                        <label>Enter doctor's Name</label>
+                                        <input type="text" name="name" class="form-control" required="required" placeholder="Dr. Name">
+                                        <br>
+
+                                        <input type="submit" name="delete_patient_info" value="Search Doctor" class="btn btn-info">
+                                        <input type="reset" name="reset" value="Reset" class="btn btn-dark  ml-2">
+
+                                    </fieldset>
+                            </form>
+                    </div>
+            </div>
+    </body>
+</html>

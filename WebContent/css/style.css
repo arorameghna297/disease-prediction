@@ -1,0 +1,96 @@
+body
+{
+    color: #532827;
+}
+#container
+{
+
+    width: 900px;
+    margin: 0 auto;
+
+}
+.sub-container
+{
+    padding: 50px 0px 20px;
+    background-color: lightskyblue;
+    text-align: center;
+    color: #532827;
+}
+header
+{
+    color: white;
+    font-family: Elephant;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #17A2B8;
+}
+header p
+{
+    text-align: center;
+}
+p
+{
+    text-align: center; 
+    font-family: cursive;
+    font-size: 15px; 
+    margin: 50 10 0; 
+    padding: 20px;
+}
+.button
+{
+    padding-top: 20px;
+    margin: 5px 50px ;
+    width:180px;
+    border-radius: 5px;
+}
+.button:hover
+{
+    border: solid 1px darkblue;
+    cursor: pointer;
+    background-color: darkgrey;
+    color: white;
+}
+button h2
+{
+    font-family: serif;
+}
+button h4
+{
+    font-family: serif;
+}
+
+form
+{
+    margin: 0px 100px;
+    padding: 50px;
+    text-align: left;
+    width: 700px;
+    background-color: lightgray;
+    border: solid 1px #532827;
+    border-radius: 5px;
+}
+form label
+{
+display: block;
+margin: 25px, 0;
+font-weight: bold;
+}
+
+.from-outer
+{
+    border: 1px solid  gray;
+    border-radius: 10px;;
+    width: 670;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: lightgray;
+    
+}
+.admin_button
+{
+    margin: 10px 170px ;
+    width: 400px;
+    height: 150px;
+    font-size: 25px;
+    font-family: times, sans-serif;
+}

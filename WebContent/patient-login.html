@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <title>HOME: MY HOSPITAL</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <link href="css/style.css" rel="stylesheet" type="text/css">
+            <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+            <br><br><br><br>
+            <div  id="container">
+                    <header>
+                            <h1> Login Portal</h1>
+                            <p>Patient's Section</p>
+                    </header>
+
+                    <div class="sub-container"> 
+
+                            <h4>Log In as Patient</h4>
+
+                            <form action="LoginPatient" method="post">
+                                <div class="row">
+                                    <div class="col-sm-3"></div>
+                                    <div class="col-sm-6">
+                                            <input type="text" name="puser" class="form-control mt-2" required="required" placeholder="Enter User Name">
+
+                                            <input type="password" name="ppass" class="form-control mt-2" required="required" placeholder="Enter Password">
+                                            <br>
+                                            <input type="submit" name="login" value="submit" class="btn btn-primary">
+                                            <input type="reset" value="Reset" class="btn btn-dark ml-2">
+
+                                    </div>
+                                </div>
+                            </form>
+                    </div>
+            </div>
+    </body>
+</html>

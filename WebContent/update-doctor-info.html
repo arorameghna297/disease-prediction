@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <title>ADMIN: MY HOSPITAL</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <link href="css/style.css" rel="stylesheet" type="text/css">
+            <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+            <br><br><br><br>
+            <div  id="container">
+                    <header>
+                            <h1>Doctor's Section</h1>
+                            <p>Update Doctor's Informatin</p>
+                    </header>
+
+                    <div class="sub-container"> 
+                        
+                            <h4>Update Information based on Id</h4>
+
+                            <form action="EditDoctorDetails" method="post">
+                                    <fieldset>
+                                            <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <label>ID</label>
+                                                        <input type="text" name="id" class="form-control" required="required" placeholder="id">
+                                                        <br>
+
+                                                        <label>Contact Number</label>
+                                                        <input type="number" name="phone" class="form-control" required="required" placeholder="0123456789">
+                                                        <br>    
+
+                                                        <label>Contact Email</label>
+                                                        <input type="email" name="email" class="form-control" required="required" placeholder="enter@email.com">
+                                                        <br> 
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <label>Username</label>
+                                                        <input type="text" name="username" class="form-control" required="required" placeholder="enter username">
+                                                        <br>
+
+                                                        <label>Password</label>
+                                                        <input type="password" name="password" class="form-control" required="required" placeholder="enter password">
+                                                        <br>
+
+                                                        <label>Status</label>
+                                                        <input type="radio" name="status" class="mt-2"> Available<br>
+                                                        <input type="radio" name="status" class="mt-2"> not Available<br>
+                                                        <br>
+
+                                                        <input type="submit"  value="Update" class="btn btn-warning">
+                                                        <input type="reset" name="reset" value="Reset" class="btn btn-dark ml-2">
+                                                    </div>
+                                            </div>
+                                    </fieldset>
+                            </form>
+                    </div>
+            </div>
+    </body>
+</html>

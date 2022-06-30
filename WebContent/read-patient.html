@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <title>ADMIN: MY HOSPITAL</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <link href="css/style.css" rel="stylesheet" type="text/css">
+            <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+            <br><br><br><br>
+            <div  id="container">
+                    <header>
+                            <h1>ADMIN PANEL</h1>
+                            <p>Search Patient Section</p>
+                    </header>
+
+                    <div class="sub-container"> 
+                        <h4>Search Patient by Patient-Id</h4>
+                        
+                            <form action="ReadPatient" method="post">
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                                <input type="text" name="id" placeholder="ID" required="required" class="form-control">
+                                        </div>
+                                        <div class="col-sm-6">
+                                                <input type="submit" value="Search" class="btn btn-info">           
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                    </div>
+            </div>
+    </body>
+</html>

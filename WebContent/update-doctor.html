@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <title>ADMIN: MY HOSPITAL</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <link href="css/style.css" rel="stylesheet" type="text/css">
+            <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+            <br><br><br><br>
+            <div  id="container">
+                    <header>
+                            <h1>ADMIN PANEL</h1>
+                            <p>Doctor: Update Information Section</p>
+                    </header>
+
+                    <div class="sub-container"> 
+                        
+                            <h4>Update Information based on Doctor-Id</h4>
+
+                        
+                            <form action="UpdateDoctor" method="post">
+                                    <fieldset>
+                                            <div class="row">
+                                                    <div class="col-sm-6">
+
+                                                            <label>ID</label>
+                                                            <input type="text" name="id" class="form-control" required="required" placeholder="id">
+                                                            <br>
+
+                                                            <label>Date</label>
+                                                            <input type="date" name="date" class="form-control" required="required" placeholder="date">
+                                                            <br>
+
+                                                            <label>Name</label>
+                                                            <input type="text" name="name" class="form-control" required="required" placeholder="Enter Full Name">
+                                                            <br>
+
+                                                            <label>Age</label>
+                                                            <input type="number" name="age" class="form-control" required="required" placeholder="Enter Doctor Age">
+                                                            <br>
+
+                                                            <label>Gender</label>
+                                                            <input type="radio" name="gender" value="male" class="mt-2">male
+                                                            <input type="radio" name="gender" value="female" class="mt-2" >female
+                                                            <br>
+                                                        <br>
+
+                                                            <label>Blood Group</label>
+                                                            <select name="blood">
+                                                                <option>--select--</option>
+                                                                <option value="A+">A+</option>
+                                                                <option value="A-">A-</option>
+                                                                <option value="B+">B+</option>
+                                                                <option value="B-">B-</option>
+                                                                <option value="AB+">AB+</option>
+                                                                <option value="AB-">AB-</option>
+                                                                <option value="O+">O+</option>
+                                                                <option value="O-">O-</option>
+                                                            </select>
+                                                            <br>
+                                                        <br>
+
+                                                            <label>Department</label>
+                                                            <select name="dept">
+                                                                <option>--select--</option>
+                                                                <option value="Allergists/Immunologists">Allergists/Immunologists</option>
+                                                                <option value="Anesthesiologists">Anesthesiologists</option>
+                                                                <option value="Cardiologists">Cardiologists</option>
+                                                                <option value="Colon and Rectal Surgeons">Colon and Rectal Surgeons</option>
+                                                                <option value="Critical Care Medicine Specialists">Critical Care Medicine Specialists</option>
+                                                                <option value="Dermatologists">Dermatologists</option>
+                                                                <option value="Endocrinologists">Endocrinologists</option>
+                                                                <option value="Family Physicians">Family Physicians</option>
+                                                            </select>
+                                                        <br>
+                                              <br>
+
+                                                            <label>Address</label> 
+                                                            <textarea class="form-control" name="address" required="required" rows="5" cols="73"></textarea>
+                                                            <br>
+                                                          </div>
+                                                    <div class="col-sm-6">
+
+                                                            <label>Contact Number</label>
+                                                            <input type="number" name="phone" class="form-control" required="required" placeholder="0123456789">
+                                                            <br>    
+
+                                                            <label>Contact Email</label>
+                                                            <input type="email" name="email" class="form-control" required="required" placeholder="enter@email.com">
+                                                            <br>  
+
+                                                            <label>Username</label>
+                                                            <input type="text" name="username" class="form-control" required="required" placeholder="enter user name">
+                                                            <br>
+
+                                                            <label>Password</label>
+                                                            <input type="password" name="password" class="form-control" required="required" placeholder="enter password">
+                                                            <br>
+
+                                                            <label>Status</label> 
+                                                            <input class="mt-2" type="radio" name="status" value="Available"> Available<br>
+                                                            <input class="mt-2" type="radio" name="status" value="un-Available"> un-Available<br>
+                                                            <br>
+
+                                                            <label>Room Number</label>
+                                                            <input type="text" name="room" class="form-control" required="required" placeholder="Enter allocated room number">
+                                                            <br>
+                                                </div>
+                                        </div>
+
+                                                            <input type="submit" name="save" value="Update Info" class="btn btn-warning">
+                                                            <input type="reset" name="reset" value="Reset" class="btn btn-dark ml-2">
+
+                                    </fieldset>
+                            </form>
+                    </div>
+            </div>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>ADMIN: MY HOSPITAL</title>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="container">
+		<header>
+			<h1>ADMIN PANEL</h1>
+			<p>Doctor: Delete Informatin Section</p>
+		</header>
+
+		<div class="sub-container">
+
+			<h4>Delete Information based on Doctor-Id</h4>
+
+			<form action="DeleteDoctor" method="post">
+				<fieldset>
+					<div class="row">
+
+						<div class="col-sm-6">
+							<input type="text" name="id"
+								class="form-control" required="required" placeholder="id">
+							<br>
+						</div>
+						<div class="col-sm-6">
+
+							<input type="submit" name="delete_Doctor_info"
+								value="Delete Info" class="btn btn-danger "> <input
+								type="reset" name="reset" value="Reset"
+								class="btn btn-dark ml-2 ">
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
